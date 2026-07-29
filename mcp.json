@@ -1,0 +1,16 @@
+{
+  "name": "website-builder",
+  "version": "1.0",
+  "tools": [
+    {
+      "name": "create_page",
+      "endpoint": "/create",
+      "method": "POST"
+    },
+    {
+      "name": "get_page",
+      "endpoint": "/page/{name}",
+      "method": "GET"
+    }
+  ]
+}
